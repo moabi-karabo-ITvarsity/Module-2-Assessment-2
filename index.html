@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/style2.css">
+     <style>
+        .img{
+            width: 10%;
+            float: left;
+        }  
+         .regal{
+            width: 25%;
+            float: left;
+        }         
+         
+         .shoes{
+            width: 15%;
+            float: left;
+        }
+         .mobile{
+             width: 19%;
+             float: left;
+         }
+         .home{
+             width: 20%;
+             float: left;
+         }
+    </style>  
+</head>
+<body>
+
+</head>
+<body>
+
+<div class="topnav">
+<a class="logo1" href="index.html"><img class="logo" src="images/mall-logo1.png">
+</a>
+<a class="active" href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="service.html">Services</a>
+<a href="Contact.html">Contact</a>
+</div>
+
+
+  
+<!============================Tab Headers====================================>
+<div class="tabs"> 
+<div id="Health" class="tabcontent">
+    <h1 class="movies"><a class="movies" href="Health_shop/index.html"><img class="img" src="Health_shop/img/health.png">*SPECIALS</a></h1>
+    <img src="Health_shop/img/cover.jpg">
+    <img src="Health_shop/img/BLOOD-COVER.jpg">
+    <img src="Health_shop/img/LAUREL-COVER.jpg">
+    </div>
+
+<div id="Food" class="tabcontent">
+    <h1 class="movies"><a class="movies" href="Food/index.html">
+        <img class="img" src="Food/Images/hickory-farm.jpeg"> (Today's special*)</a> </h1>
+       <img src="Food/Images/images.jpg">
+    <img src="Food/Images/images%20(2).jpg">
+    <img src="Food/Images/images%20(1).jpg">
+    </div>
+
+<div id="Entertainment" class="tabcontent">
+    <h1 class="movies"><a class="movies" href="Entertainment_Cinema/index.html">
+<!--log0-->
+        <img  class="regal" src="Entertainment_Cinema/images/Regal-cinema-logo.png">MOVIE DEALS</a></a></h1>
+<!--log0-->
+
+    <img src="Entertainment_Cinema/images/The-Hate-U-Give-cover.jpg">
+    <img src="Entertainment_Cinema/images/The-little-things-cover.jpg">
+    <img src="Entertainment_Cinema/images/black_widow_cover.jpg">
+    </div>
+
+<div id="Shoes" class="tabcontent">
+    <h1 class="movies"><a class="movies" href="Shoes-shop/index.html"><img class="shoes" src="Shoes-shop/img/foot-looker.jpeg">Foot Locker</a></h1>
+    <img src="Shoes-shop/img/mens-shoes.jpg">
+    <img src="Shoes-shop/img/Kids-shoes-cover.jpg">
+    <img src="Shoes-shop/img/womens%20shoes%20cover.jpg">
+    
+    </div>
+</div>
+
+<div id="Electronics" class="tabcontent">
+    <h1 class="movies"><a class="movies" href="Electronics_shop/index.html"><img class="mobile" src="Electronics_shop/images/Connected-devices.jpeg">Moblie phones| Laptops | Printers</a> (Great deals*) </h1>
+    <img src="Electronics_shop/images/Capture.PNG">
+    <img src="Electronics_shop/images/php5.jpg">
+    <img src="Electronics_shop/images/printer/printer3.jpg">
+    </div>
+</div>
+    
+<div id="Home" class="tabcontent">
+    <h1 class="movies"><a class="movies" href="Home-decor-shop/index.html"><img class="home" src="Home-decor-shop/img/home-inspirations.jpeg">Home Inspirations</a></h1>
+    <img src="Home-decor-shop/img/img1cover.jpg">
+    <img src="Home-decor-shop/img/img2cover.jpg">
+    <img src="Home-decor-shop/img/img3cover.jpg">
+    </div>
+
+
+</div>    
+<button class="tablink" onclick="openCity('Health', this, 'red')" id="defaultOpen">Health</button>
+<button class="tablink" onclick="openCity('Food', this, 'green')">Food & Beverage</button>
+<button class="tablink" onclick="openCity('Entertainment', this, 'blue')">Entertainment</button>
+<button class="tablink" onclick="openCity('Shoes', this, 'orange')">Shoes</button>
+<button class="tablink" onclick="openCity('Electronics', this, 'rgb(95, 98, 106)')">Electronics</button>
+<button class="tablink" onclick="openCity('Home', this, 'deepskyblue')">Home Decor</button>
+
+<!============================End of Tab Headers====================================>
+
+<!================================SCRIPT============================================>
+<script>
+function openCity(cityName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(cityName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<!================================End of SCRIPT==========================================>
+
+  
+
+</body>
+</html> 

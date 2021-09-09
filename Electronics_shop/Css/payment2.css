@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:darkgray;
+    text-align: center;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    margin-top: 710px;
+}
+
+nav.hidden{
+    transform: translate3d(0,-100%,0);
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.content{
+    height: 200px;
+    background-color: rgb(200,200,250);

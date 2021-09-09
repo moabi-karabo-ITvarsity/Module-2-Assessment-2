@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: cyan;
+}
+
+table{
+    width: 1000px;
+    height: 600px;
+    text-align:left;
+    margin: auto;
+    table-layout: fixed;
+    margin-top: 150px;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+}
+
+table tr, td{
+    padding: 20px;
+    color: white;
+    border: 1px solid #080808;
+    border-collapse:inherit;
+    font-size: 17px;
+    font-family:sans-serif;
+    background: linear-gradient(top,#3c3c3c 0%,#222222 100%);
+    background:-webkit-linear-gradient(top,#3c3c3c 0%,#222222 100%);
+}
+table th{
+    text-align: center;
+}
+td:hover{
+    background: cadetblue;
+    transition: all 0,5s ease;
+}

@@ -1,0 +1,24 @@
+ .welcome {
+  border: 1px solid blue;
+  padding: 8px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+.Junction {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.cont {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.navbar-header{
+    
+}

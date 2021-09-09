@@ -1,0 +1,91 @@
+ .welcome {
+  border: 1px solid gray;
+  padding: 8px;
+  margin-top: 50px;
+}
+
+.Junction {
+  text-align: center;
+  text-transform: uppercase;
+  color:cornflowerblue;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+
+ .ask{
+    width: 900px;
+ 
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: cornflowerblue;
+    padding: 10px 0px 10px 0px;
+    text-align:left;
+   border: 1px solid gray;
+    margin-left: 190px;
+    padding-left: 70px;
+}
+form textarea {
+    border-radius: 10px 10px 10px 10px;
+}
+.ask h1{
+    text-align: center;
+}
+
+input{
+    display: inline-block;
+    width: 30%;
+    padding: 12px;
+    background-color: #fcfcfc;
+    
+    text-align: center;
+    font-size: 11px;
+    outline: none;
+    border: 1px solid #c0bfbf;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* MAP CONTENT PAGE */
+
+.map {
+  border: 1px solid gray;
+  padding: 8px;
+  margin-top: 50px;
+margin-bottom: 40px;
+}
+.map-img{
+    width: 100%;
+    
+}
+img{
+  width:20%;
+    display:inline;
+    padding-bottom: 0px;
+}
+
+/*FOOTER*/
+footer {
+text-align: center;
+padding: 1px;
+background-color:  #555;
+color: white;
+margin-top: 5px;
+}
+
+.movies a{
+        color: black;
+    padding-bottom: -90px;
+    }
+
+.movies a:hover{
+    color: currentColor;
+}
