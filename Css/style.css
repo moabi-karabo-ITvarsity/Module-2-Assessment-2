@@ -75,7 +75,15 @@ background-image: url(../images/everett-mall-876.jpg);
 .topnav {
   overflow: hidden;
   background-color:  #555;
+margin-left: 164px;
+    margin-top: 50px;
 }
+
+.pine-logo{
+    margin-left: -40px;
+    margin-top: -130px;
+    margin-bottom: -50px;
+         } 
 
 .topnav a {
   float: left;

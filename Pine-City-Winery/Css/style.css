@@ -1,0 +1,154 @@
+*{ padding: 0;
+    margin: 0;
+    }
+    body{
+        background-color:cornsilk;
+        padding-bottom: 30px;
+    }
+
+nav{
+    background-color:gray;
+    height: 50px;
+    margin-left: 255px;
+    margin-top: 80px;
+    }
+    
+.city-logo{
+        margin-left: -70px;
+        margin-top: -130px;
+    margin-bottom: 20px;
+    }
+
+    
+    al ul{
+    border: 1px solid black;
+    height: 50px;
+    width: 450px;
+    margin: 0 auto;
+    }
+    
+Nav ul li{
+    list-style-type: none;
+    width: 150px;
+    float: left;
+    border-right: 1px solid white;
+    text-align: center;
+    }
+    
+    nav ul li a{
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    font-family: arial;
+    }
+    
+li a:hover {
+    background-color: darkseagreen;
+    color: aqua;  
+    }
+    
+
+    
+img { padding-left: 20px;
+      height: 250px;
+      width: 400px;
+    }
+    
+p {text-align: left;
+    padding-left: 20px;
+    padding-right: 900px;   
+    }
+    
+h1 { 
+    padding-top: 20px;
+    text-align: center;
+    font-family: arial;
+    }
+    
+h2 { padding-left: 20px;
+    padding-right: 20px;
+    }
+    
+h3 { padding-left: 20px;
+    text-decoration: underline
+    }
+/*contact*/
+    .ask{
+    width: 800px;
+    background-color:darkgrey;
+    margin: auto;
+    color: black;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    }
+    .menu{
+    background-color:lavender;
+    width: 800px;
+    margin: auto;
+    }
+    form{
+    padding: 10px;
+    }
+    #names{
+    width: 100%;
+    }
+    .name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    }
+    .firstname{
+    position: relative;
+    left: 20px;
+    top: 37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    }
+    .lastname{
+     position: relative;
+        left: 417px;
+        top: -80px;
+        line-height: 40px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: antiquewhite;  
+    }
+    .feed{
+    width: 780px;
+    background-color:sandybrown;
+    margin: auto;
+    color: bisque;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    }
+    
+    
+    .radio{
+    display: inline-block;
+        font-size: 25px;
+        margin-left: 25px;
+        margin-top: 15px;
+        color: azure;
+        
+    text inpu {
+    width: 150
+    }
+    nav{
+    background-color: wheat;
+    height: 50px;
+    position: fixed;
+    }    
+    #nav a {
+        text-decoration: none;
+        }
+
